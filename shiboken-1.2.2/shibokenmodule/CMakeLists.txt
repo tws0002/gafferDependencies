@@ -7,9 +7,13 @@ configure_file("${CMAKE_CURRENT_SOURCE_DIR}/shibokenmodule.txt.in"
 set(sample_SRC
 ${CMAKE_CURRENT_BINARY_DIR}/shiboken/shiboken_module_wrapper.cpp
 )
-
+if(MSVC)
+    set(shibokengenerator_BINARY ${CMAKE_BUILD_TYPE}/shiboken.exe)
+else()
+    set(shibokengenerator_BINARY shiboken)
+endif()
 add_custom_command(OUTPUT ${sample_SRC}
-COMMAND ${shibokengenerator_BINARY_DIR}/shiboken --project-file=${CMAKE_CURRENT_BINARY_DIR}/shibokenmodule.txt ${GENERATOR_EXTRA_FLAGS}
+COMMAND ${shibokengenerator_BINARY_DIR}/${shibokengenerator_BINARY} --project-file=${CMAKE_CURRENT_BINARY_DIR}/shibokenmodule.txt ${GENERATOR_EXTRA_FLAGS}
 WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
 COMMENT "Running generator for 'shiboken'..."
 )
