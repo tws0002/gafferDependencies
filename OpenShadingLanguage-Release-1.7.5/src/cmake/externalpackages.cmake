@@ -254,6 +254,11 @@ if ((LLVM_LIBRARY OR LLVM_STATIC) AND LLVM_INCLUDES AND LLVM_DIRECTORY AND LLVM_
                      OUTPUT_VARIABLE LLVM_LIBRARY
                      OUTPUT_STRIP_TRAILING_WHITESPACE)
     string (REPLACE " " ";" LLVM_LIBRARY ${LLVM_LIBRARY})
+    # Very hacky territory here, so we link the right lib names from MSVC
+    if (MSVC)
+      string (REPLACE "libL" "L" LLVM_LIBRARY ${LLVM_LIBRARY})
+      string (REPLACE ".a" ".lib;" LLVM_LIBRARY ${LLVM_LIBRARY})
+    endif ()
   endif ()
   if (NOT LLVM_FIND_QUIETLY)
       message (STATUS "LLVM OSL_LLVM_VERSION = ${OSL_LLVM_VERSION}")
