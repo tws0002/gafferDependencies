@@ -1,16 +1,24 @@
-cd %~dp0%..\qt-everywhere-opensource-src-4.8.7
+cd %~dp0%..\qt-adsk-5.6.1
 
 mkdir %BUILD_DIR%\doc\licenses
-copy LICENSE.LGPL %BUILD_DIR%\doc\licenses\qt
+copy LICENSE.LGPLv21 %BUILD_DIR%\doc\licenses\qt
+
+rem Qt5 wants 'zdll.lib' not 'zlib.lib'
+copy %BUILD_DIR%\lib\zlib.lib %BUILD_DIR%\lib\zdll.lib
+rem Qt5 wants 'libpng.lib' not 'libpng16.lib'
+copy %BUILD_DIR%\lib\libpng16.lib %BUILD_DIR%\lib\libpng.lib
+rem Qt5 wants 'libjpeg.lib' not 'jpeg.lib'
+copy %BUILD_DIR%\lib\jpeg.lib %BUILD_DIR%\lib\libjpeg.lib
 
 rem We need to have the lib dir
 set BACKUP_PATH=%PATH%
-set PATH=%PATH%;%BUILD_DIR%\\lib
+set PATH=%PATH%;%BUILD_DIR%\\lib;%BUILD_DIR%\\bin
 
-nmake.exe distclean
-configure.exe -prefix %BUILD_DIR% -opensource -confirm-license -no-declarative -no-qt3support -no-phonon -no-multimedia -no-audio-backend -no-dbus -nomake examples -nomake demos -nomake tools -nomake docs -nomake translations -I %BUILD_DIR%\include -L %BUILD_DIR%\lib
-nmake.exe
-nmake.exe install
+jom\jom.exe distclean
+call configure.bat -prefix %BUILD_DIR% -plugindir %BUILD_DIR%\qt\plugins -release -opensource -confirm-license -opengl desktop -no-angle -no-audio-backend -no-dbus -skip qtconnectivity -skip qtwebengine -skip qt3d -skip qtdeclarative -skip qtwebkit -nomake examples -nomake tests -system-zlib -no-openssl -I %BUILD_DIR%\include -L %BUILD_DIR%\lib
+
+jom\jom.exe
+jom\jom.exe install
 
 rem Restore path
 set PATH=%BACKUP_PATH%

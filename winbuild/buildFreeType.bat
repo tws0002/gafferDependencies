@@ -7,6 +7,6 @@ mkdir gafferBuild
 cd gafferBuild
 
 cmake -Wno-dev -G %CMAKE_GENERATOR% -DCMAKE_INSTALL_PREFIX=%BUILD_DIR% ..
-cmake --build . --config Release --target install
+cmake --build . --config %BUILD_TYPE% --target install
 
 cd %ROOT_DIR%
