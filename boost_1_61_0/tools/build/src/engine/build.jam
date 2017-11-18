@@ -68,44 +68,21 @@ if $(with-python)
 {
     if $(OS) = NT
     {
-        if $(GAFFER_PYTHONPATH)
+        --python-include = [ .path $(python-location) include ] ;
+        --python-lib = ;
+        for local v in 27 26 25 24 23 22
         {
-            --python-include = [ .path $(GAFFER_PYTHONPATH) include ] ;
-
-            --python-lib = ;
-            for local v in 27 26 25 24 23 22
+            --python-lib ?=
+                [ GLOB [ .path $(python-location) lib ] : "python$(v).lib" ]
+                [ GLOB $(python-location) [ .path $(python-location) bin ]
+                    $(Path) $(PATH) $(path) : "python$(v).dll" ]
+                ;
+            if ! $(--python-lib[2])
             {
-                --python-lib ?=
-                    [ GLOB [ .path $(GAFFER_PYTHONPATH) lib ] : "python$(v).lib" ]
-                    [ GLOB $(GAFFER_PYTHONPATH) [ .path $(GAFFER_PYTHONPATH) lib ]
-                        $(Path) $(PATH) $(path) : "python$(v).dll" ]
-                    ;
-                if ! $(--python-lib[2])
-                {
-                    --python-lib = ;
-                }
+                --python-lib = ;
             }
-            --python-lib = $(--python-lib[1]) ;
         }
-        else
-        {
-            --python-include = [ .path $(python-location) include ] ;
-    
-            --python-lib = ;
-            for local v in 27 26 25 24 23 22
-            {
-                --python-lib ?=
-                    [ GLOB [ .path $(python-location) lib ] : "python$(v).lib" ]
-                    [ GLOB $(python-location) [ .path $(python-location) lib ]
-                        $(Path) $(PATH) $(path) : "python$(v).dll" ]
-                    ;
-                if ! $(--python-lib[2])
-                {
-                    --python-lib = ;
-                }
-            }
-            --python-lib = $(--python-lib[1]) ;
-        }
+        --python-lib = $(--python-lib[1]) ;
     }
     else if $(OS) = MACOSX
     {
@@ -196,7 +173,7 @@ toolset acc cc : "-o " : -D
     : -Ae
     [ opt --release : -s -O3 ]
     [ opt --debug : -g -pg ]
-    -I$(--python-location) -I$(--extra-include)
+    -I$(--python-include) -I$(--extra-include)
     : -L$(--python-lib[1]) -l$(--python-lib[2]) ;
 ## Borland C++ 5.5.x
 toolset borland bcc32 : -e -n : /D
