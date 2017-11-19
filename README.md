@@ -21,6 +21,7 @@ Since the build covers so many different projects, it requires the installation 
 - CMake
 - SCons
 - libbz2 (and headers)
+- MinGW flex, bison and patch utilities (make sure the containing directory in your Windows path environment variable also)
 
 ### Invoking the build
 
@@ -30,8 +31,12 @@ The build is controlled by several environment variables, which must be set up b
 - VERSION : Version number for the build - e.g. 0.29.0.0
 - ARNOLD_ROOT : Path to the root of an Arnold installation
 - RMAN_ROOT : Path to the root of a 3delight installation
+- CMAKE_GENERATOR : Build environment for CMake. Currently building with "Visual Studio 12 2013 Win64". A full list of availble generators is available here: https://cmake.org/cmake/help/latest/manual/cmake-generators.7.html#manual:cmake-generators(7)
+- ROOT_DIR : Path for the "winbuild" directory
+- BOOST_MSVC_VERSION : Compiler to use for boost. Currently tested with "msvc"
+- BUILD_TYPE : Build type to create. Currently tested with "Release"
 
-The build is then initiated using a bash script, which should be run from the root directory of the project :
+The build is then initiated using a batch script, which should be run from the root directory of the project :
 
 ```
 ./build/buildAll.sh
