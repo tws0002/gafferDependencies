@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{48B24F26-7430-3B75-A200-4CF1755C0C3B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>_IECoreGL</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_IECoreGL.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_IECoreGL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">_IECoreGL.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">_IECoreGL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">_IECoreGL.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">_IECoreGL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">_IECoreGL.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">_IECoreGL</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"/MP</AdditionalOptions>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR="Debug";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR=\"Debug\";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\IECorePython\Debug\IECorePython.lib;..\Debug\IECoreGL.lib;glew32.lib;opengl32.lib;glu32.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_python-vc120-mt-1_61.lib;M:\gaffer\lib\boost_serialization-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\boost_atomic-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\zlib.lib;..\..\IECore\Debug\IECore.lib;M:\gaffer\lib\libtiff.lib;M:\gaffer\lib\jpeg.lib;M:\gaffer\lib\libpng.lib;M:\gaffer\lib\freetype.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\Half.lib;M:\gaffer\lib\Iex-2_2.lib;M:\gaffer\lib\IexMath-2_2.lib;M:\gaffer\lib\IlmThread-2_2.lib;M:\gaffer\lib\Imath-2_2.lib;M:\gaffer\lib\IlmImf-2_2.lib;M:\gaffer\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>M:/gaffer/lib;M:/gaffer/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/Debug/_IECoreGL.lib</ImportLibrary>
+      <ProgramDataBaseFile>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/Debug/_IECoreGL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"/MP</AdditionalOptions>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR="Release";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR=\"Release\";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\IECorePython\Release\IECorePython.lib;..\Release\IECoreGL.lib;glew32.lib;opengl32.lib;glu32.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_python-vc120-mt-1_61.lib;M:\gaffer\lib\boost_serialization-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\boost_atomic-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\zlib.lib;..\..\IECore\Release\IECore.lib;M:\gaffer\lib\libtiff.lib;M:\gaffer\lib\jpeg.lib;M:\gaffer\lib\libpng.lib;M:\gaffer\lib\freetype.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\Half.lib;M:\gaffer\lib\Iex-2_2.lib;M:\gaffer\lib\IexMath-2_2.lib;M:\gaffer\lib\IlmThread-2_2.lib;M:\gaffer\lib\Imath-2_2.lib;M:\gaffer\lib\IlmImf-2_2.lib;M:\gaffer\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>M:/gaffer/lib;M:/gaffer/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/Release/_IECoreGL.lib</ImportLibrary>
+      <ProgramDataBaseFile>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/Release/_IECoreGL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"/MP</AdditionalOptions>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR="MinSizeRel";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR=\"MinSizeRel\";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\IECorePython\MinSizeRel\IECorePython.lib;..\MinSizeRel\IECoreGL.lib;glew32.lib;opengl32.lib;glu32.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_python-vc120-mt-1_61.lib;M:\gaffer\lib\boost_serialization-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\boost_atomic-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\zlib.lib;..\..\IECore\MinSizeRel\IECore.lib;M:\gaffer\lib\libtiff.lib;M:\gaffer\lib\jpeg.lib;M:\gaffer\lib\libpng.lib;M:\gaffer\lib\freetype.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\Half.lib;M:\gaffer\lib\Iex-2_2.lib;M:\gaffer\lib\IexMath-2_2.lib;M:\gaffer\lib\IlmThread-2_2.lib;M:\gaffer\lib\Imath-2_2.lib;M:\gaffer\lib\IlmImf-2_2.lib;M:\gaffer\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>M:/gaffer/lib;M:/gaffer/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/MinSizeRel/_IECoreGL.lib</ImportLibrary>
+      <ProgramDataBaseFile>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/MinSizeRel/_IECoreGL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHsc"%3B"/MP</AdditionalOptions>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner></SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR="RelWithDebInfo";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;IE_CORE_MAJORVERSION=9;IE_CORE_MINORVERSION=21;IE_CORE_PATCHVERSION=1;BOOST_FILESYSTEM_VERSION=3;OPENEXR_DLL;NOMINMAX;__PRETTY_FUNCTION__=__FUNCSIG__;BOOST_ALL_DYN_LINK;BOOST_PYTHON_MAX_ARITY=20;IECORE_WITH_ASIO;IECORE_WITH_SIGNALS;IECORE_WITH_BOOSTFACTORIAL;IECORE_WITH_TIFF;IECORE_WITH_JPEG;IECORE_WITH_PNG;IECORE_WITH_FREETYPE;CMAKE_INTDIR=\"RelWithDebInfo\";_IECoreGL_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>M:\gaffer\include;M:\gaffer\include\boost-1_61;M:\gaffer\include\OpenEXR;M:\gafferDependencies\cortex-9.21.1\include;M:\gaffer\include\freetype2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\..\IECorePython\RelWithDebInfo\IECorePython.lib;..\RelWithDebInfo\IECoreGL.lib;glew32.lib;opengl32.lib;glu32.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_python-vc120-mt-1_61.lib;M:\gaffer\lib\boost_serialization-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\boost_atomic-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\zlib.lib;..\..\IECore\RelWithDebInfo\IECore.lib;M:\gaffer\lib\libtiff.lib;M:\gaffer\lib\jpeg.lib;M:\gaffer\lib\libpng.lib;M:\gaffer\lib\freetype.lib;M:\gaffer\lib\boost_signals-vc120-mt-1_61.lib;M:\gaffer\lib\boost_iostreams-vc120-mt-1_61.lib;M:\gaffer\lib\boost_filesystem-vc120-mt-1_61.lib;M:\gaffer\lib\boost_date_time-vc120-mt-1_61.lib;M:\gaffer\lib\boost_wave-vc120-mt-1_61.lib;M:\gaffer\lib\boost_regex-vc120-mt-1_61.lib;M:\gaffer\lib\boost_system-vc120-mt-1_61.lib;M:\gaffer\lib\boost_chrono-vc120-mt-1_61.lib;M:\gaffer\lib\boost_thread-vc120-mt-1_61.lib;M:\gaffer\lib\tbb.lib;M:\gaffer\lib\tbbmalloc.lib;M:\gaffer\lib\Half.lib;M:\gaffer\lib\Iex-2_2.lib;M:\gaffer\lib\IexMath-2_2.lib;M:\gaffer\lib\IlmThread-2_2.lib;M:\gaffer\lib\Imath-2_2.lib;M:\gaffer\lib\IlmImf-2_2.lib;M:\gaffer\lib\zlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>M:/gaffer/lib;M:/gaffer/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/RelWithDebInfo/_IECoreGL.lib</ImportLibrary>
+      <ProgramDataBaseFile>M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/RelWithDebInfo/_IECoreGL.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HM:/gafferDependencies/cortex-9.21.1 -BM:/gafferDependencies/cortex-9.21.1/gafferBuild --check-stamp-file M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HM:/gafferDependencies/cortex-9.21.1 -BM:/gafferDependencies/cortex-9.21.1/gafferBuild --check-stamp-file M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HM:/gafferDependencies/cortex-9.21.1 -BM:/gafferDependencies/cortex-9.21.1/gafferBuild --check-stamp-file M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HM:/gafferDependencies/cortex-9.21.1 -BM:/gafferDependencies/cortex-9.21.1/gafferBuild --check-stamp-file M:/gafferDependencies/cortex-9.21.1/gafferBuild/src/IECoreGL/bindings/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">M:/gafferDependencies/cortex-9.21.1/src/IECoreGL/bindings/CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\bindings\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\AlphaTextureBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\BindableBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\BufferBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CachedConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CameraBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ColorTextureBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CurvesPrimitiveBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\DepthTextureBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\FontBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\FontLoaderBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\FrameBufferBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\GroupBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\HitRecordBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\IECoreGLBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\LuminanceTextureBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\MeshPrimitiveBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\NameStateComponentBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\OrthographicCameraBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\PerspectiveCameraBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\PointsPrimitiveBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\PrimitiveBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\RenderableBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\RendererBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\SceneBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\SelectorBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ShaderBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ShaderLoaderBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ShaderStateComponentBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\SplineToGLTextureConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\StateBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\StateComponentBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\TextureBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\TextureLoaderBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLCameraConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLCurvesConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLMeshConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLPointsConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLStateConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLTextureConverterBinding.cpp"  />
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\TypedStateComponentBinding.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="M:\gafferDependencies\cortex-9.21.1\gafferBuild\ZERO_CHECK.vcxproj">
+      <Project>{B14306E4-9514-3B93-A3F6-B08EF068E57C}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECore\IECore.vcxproj">
+      <Project>{6F6901E4-2864-3AED-95EC-D819C30E3587}</Project>
+      <Name>IECore</Name>
+    </ProjectReference>
+    <ProjectReference Include="M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECoreGL\IECoreGL.vcxproj">
+      <Project>{CBAA90EC-FCEB-35E8-9FFA-B5EB94B61BA6}</Project>
+      <Name>IECoreGL</Name>
+    </ProjectReference>
+    <ProjectReference Include="M:\gafferDependencies\cortex-9.21.1\gafferBuild\src\IECorePython\IECorePython.vcxproj">
+      <Project>{86FD7CD1-1169-310B-AEA8-A0E170C362AC}</Project>
+      <Name>IECorePython</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

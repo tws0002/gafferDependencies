@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\AlphaTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Bindable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\BoxPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\CachedConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ColorTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\CurvesPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\DeferredRendererImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\DepthTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\DiskPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\FontLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\HitRecord.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\IECoreGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ImmediateRendererImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\LuminanceTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\MeshPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\NameStateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\NumericTraits.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\OrthographicCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\PerspectiveCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\PointsPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Primitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\QuadPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\RendererImplementation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Selector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ShaderLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ShaderStateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\SpherePrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\SplineToGLTextureConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\StateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\TextPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\TextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLBufferConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLCameraConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLCurvesConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLMeshConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLPointsConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLSphereConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLStateConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\ToGLTextureConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\TypedStateComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\UIntTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\UniformFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\AlphaTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Bindable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\BoxPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\CachedConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ColorTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\CurvesPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\DepthTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\DiskPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\FontLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\GL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\HitRecord.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\IECoreGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\LuminanceTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\MeshPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\NameStateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\NumericTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\OrthographicCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\PerspectiveCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\PointsPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\QuadPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Renderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Selector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ShaderLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ShaderStateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\SpherePrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\SplineToGLTextureConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\StateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\TextPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\TextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLBufferConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLCameraConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLCurvesConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLMeshConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLPointsConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLSphereConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLStateConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLTextureConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\TypeIds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\TypedStateComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\UIntTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\UniformFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\GL.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\State.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\StateComponent.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\ToGLConverter.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\TypedStateComponent.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\private\DeferredRendererImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\private\Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\private\ImmediateRendererImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\private\RendererImplementation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECoreGL\private\RendererImplementation.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5E108FB9-6FC0-3B20-9F53-3C684AACFEFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{50FB8D4D-97EF-311D-B2F6-3B5A941B8736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

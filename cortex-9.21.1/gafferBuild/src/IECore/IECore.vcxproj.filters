@@ -1,0 +1,2124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\AddSmoothSkinningInfluencesOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\AlexaLogcToLinearOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\AttributeBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\AttributeState.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\BinaryFrameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\BlindDataHolder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CINImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CINImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CachedReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CamelCase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CameraController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CapturingRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ChannelOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CineonToLinearOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ClampOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ClientDisplayDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ClippingPlane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ColorSpaceTransformOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ColorTransformOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CompoundData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CompoundDataBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CompoundFrameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CompoundMessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CompoundObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CompoundParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CompressSmoothSkinningDataOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ContrastSmoothSkinningWeightsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CoordinateSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CubeColorLookupData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CubeColorLookupParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CubeColorTransformOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurveExtrudeOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurveLineariser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurveTangentsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurveTracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurvesAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurvesMergeOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurvesPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CurvesPrimitiveEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DPXImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DPXImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Data.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DataAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DataCastOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DataConvertOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DataInterleaveOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DataPromoteOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DateTimeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DateTimeParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DecompressSmoothSkinningDataOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DeepImageConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DeepImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DeepImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DeepPixel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DirNameParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DiskPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Display.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DisplayDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DisplayDriverServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\DisplayDriverServerHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\EXRDeepImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\EXRDeepImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\EXRImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\EXRImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\EditBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\EmptyFrameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\EnvMapSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ExclusionFrameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ExternalProcedural.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FaceAreaOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FaceVaryingPromotionOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FileIndexedIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FileNameParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FileSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FileSequenceFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FileSequenceParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FileSequenceVectorParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FilteredMessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FrameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FrameListParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FrameRange.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\FromCoreConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Grade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Group.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\HdrMergeOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\HeaderGenerator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\IECore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\IFFFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageCompositeOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageCropOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageDiffOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageDisplayDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImagePremultiplyOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImagePrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImagePrimitiveEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageThinner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageUnpremultiplyOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\IndexedIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\InternedString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\JPEGImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\JPEGImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LensDistortOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LensModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LevelFilteredMessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LimitSmoothSkinningInfluencesOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LinearToAlexaLogcOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LinearToCineonOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LinearToPanalogOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LinearToRec709Op.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LinearToSRGBOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LinkedScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\LuminanceOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MPlayDisplayDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MatrixAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MatrixMotionTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MatrixMultiplyOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MatrixTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MedianCutSampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MemoryIndexedIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MemoryStream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshDistortionsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshFaceFilterOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshMergeOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshNormalsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshPrimitiveBuilder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshPrimitiveEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshPrimitiveShrinkWrapOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshTangentsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MeshVertexReorderOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MixSmoothSkinningWeightsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ModifyOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MotionBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MotionPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\MurmurHash.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\NParticleReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\NURBSPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\NormalizeSmoothSkinningWeightsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\NullMessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\NullObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\NumericParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\OBJReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\OStreamMessageHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ObjectInterpolator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ObjectParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ObjectPool.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ObjectReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ObjectVector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ObjectWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Op.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\OversamplesCalculator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PDCParticleReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PDCParticleWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PNGImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PanalogToLinearOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Parameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Parameterised.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ParameterisedInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ParameterisedProcedural.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ParticleReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ParticleWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PatchMeshPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PathParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PathVectorParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointBoundsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointDensitiesOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointDistributionOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointNormalsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointRepulsionOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointSmoothSkinningOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointVelocityDisplaceOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointsAlgo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointsMotionOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointsPrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PointsPrimitiveEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PreWorldRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Primitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PrimitiveEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PrimitiveOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\PrimitiveVariable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\RadixSort.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\RandomRotationOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Reader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Rec709ToLinearOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\RefCounted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\RemoveSmoothSkinningInfluencesOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Renderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ReorderSmoothSkinningInfluencesOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ReorderedFrameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ReversedFrameList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\RunTimeTyped.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SGIImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SRGBToLinearOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SampledSceneInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SceneCache.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SceneInterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ScopedTIFFErrorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SearchPath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SharedSceneInterfaces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SimpleTypedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SimpleTypedParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SmoothSkinningData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SmoothSmoothSkinningWeightsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SpherePrimitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SpherePrimitiveEvaluator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SplineData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SplineParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SplineToImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\StandardRadialLensModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\StateRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\StreamIndexedIO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\SummedAreaOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TGAImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TGAImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TIFFImageReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TIFFImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TimeCodeData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TimeCodeParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TimeDurationData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TimeDurationParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TimePeriod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TimePeriodData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TimePeriodParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ToCoreConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TransferSmoothSkinningWeightsOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TransformBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TransformOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TransformStack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TransformationMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TransformationMatrixData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TriangulateOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TypedObjectParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TypedPrimitiveOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\TypedPrimitiveParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\UVDistortOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\ValidatedStringParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\VectorDataFilterOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\VectorTypedData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\VectorTypedParameter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\VisibleRenderable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\WarpOp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\WorldBlock.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\Writer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\YUVImageWriter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\AddSmoothSkinningInfluencesOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\AlexaLogcToLinearDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\AlexaLogcToLinearOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\AngleConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\AttributeBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\AttributeState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BezierAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BinaryFrameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BlindDataHolder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoundedKDTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoxAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoxOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoxTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ByteOrder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CINImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CINImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CachedReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CamelCase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CameraController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CapturingRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ChannelOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CineonToLinearDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CineonToLinearOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CircularIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ClampOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ClassData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ClientDisplayDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ClippingPlane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ColorAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ColorSpaceTransformOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ColorTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ColorTransformOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompositeAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundDataBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundFrameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompressSmoothSkinningDataOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ComputationCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ContrastSmoothSkinningWeightsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Convert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Converter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CoordinateSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CubeColorLookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CubeColorLookupData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CubeColorLookupParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CubeColorTransformOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CubicBasis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurveExtrudeOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurveLineariser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurveTangentsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurveTracer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurvesAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurvesMergeOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurvesPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CurvesPrimitiveEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DPXImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DPXImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataCastOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataConvert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataConvertOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataInterleaveOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataPromoteOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DateTimeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DateTimeParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DecompressSmoothSkinningDataOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DeepImageConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DeepImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DeepImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DeepPixel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Deleter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DespatchTypedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DimensionTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DirNameParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DiskPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Display.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DisplayDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DisplayDriverServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EXRDeepImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EXRDeepImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EXRImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EXRImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EditBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EmptyFrameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EnvMapSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EuclideanToSphericalTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Exception.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ExclusionFrameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Export.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ExternalProcedural.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FaceAreaOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FaceVaryingPromotionOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FastFloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FileIndexedIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FileNameParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FileSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FileSequenceFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FileSequenceParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FileSequenceVectorParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FilteredMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FrameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FrameListParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FrameRange.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FromCoreConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\GeometricTypedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Grade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Group.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\HalfTypeTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\HdrMergeOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\HeaderGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\HenyeyGreenstein.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\HexConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\IECore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\IFFFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageCompositeOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageCropOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageDiffOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageDisplayDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImagePremultiplyOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImagePrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImagePrimitiveEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageThinner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageUnpremultiplyOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImathRandAdapter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\IndexedIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\InternedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Interpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\InverseDistanceWeightedInterpolation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\JPEGImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\JPEGImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\KDTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LRUCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LensDistortOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LensModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LevelFilteredMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LevenbergMarquardt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LimitSmoothSkinningInfluencesOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LineSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToAlexaLogcDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToAlexaLogcOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToCineonDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToCineonOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToPanalogDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToPanalogOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToRec709DataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToRec709Op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToSRGBDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToSRGBOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinkedScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Lookup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LuminanceOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MPlayDisplayDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Math.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixMotionTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixMultiplyOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeanSquaredError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MedianCutSampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MemoryIndexedIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MemoryStream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshDistortionsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshFaceFilterOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshMergeOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshNormalsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshPrimitiveBuilder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshPrimitiveEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshPrimitiveShrinkWrapOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshTangentsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeshVertexReorderOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MixSmoothSkinningWeightsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ModifyOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MotionBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MotionPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MurmurHash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\NParticleReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\NURBSPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\NormalizeSmoothSkinningWeightsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\NullMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\NullObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\NumericParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\OBJReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\OStreamMessageHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ObjectInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ObjectParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ObjectPool.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ObjectReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ObjectVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ObjectWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Op.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Options.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\OversamplesCalculator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PDCParticleReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PDCParticleWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PNGImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PanalogToLinearDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PanalogToLinearOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Parameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Parameterised.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ParameterisedInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ParameterisedProcedural.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ParticleReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ParticleWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PatchMeshPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PathParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PathVectorParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PerlinNoise.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointBoundsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointDensitiesOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointDistributionOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointNormalsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointRepulsionOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointSmoothSkinningOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointVelocityDisplaceOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointsAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointsMotionOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointsPrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointsPrimitiveEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PolygonAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PolygonIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PolygonVertexIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PreWorldRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PrimitiveEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PrimitiveOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PrimitiveVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\QuatAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RGBToXYZColorTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RadixSort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Random.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RandomRotationOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Rec709ToLinearDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Rec709ToLinearOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RefCounted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RemoveSmoothSkinningInfluencesOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Renderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ReorderSmoothSkinningInfluencesOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ReorderedFrameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ReversedFrameList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RunTimeTyped.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SGIImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SRGBToLinearDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SRGBToLinearOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SampledSceneInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ScaledDataConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SceneCache.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SceneInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SearchPath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SharedSceneInterfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SimpleTypedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SimpleTypedParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SmoothSkinningData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SmoothSmoothSkinningWeightsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SpaceTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SpherePrimitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SpherePrimitiveEvaluator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SphericalToEuclideanTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Spline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SplineData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SplineParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SplineToImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\StandardRadialLensModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\StateRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\StreamIndexedIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\StringAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SummedAreaOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SweepAndPrune.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TGAImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TGAImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TIFFImageReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TIFFImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TestTypedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TetrahedronAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TimeCodeData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TimeCodeParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TimeDurationData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TimeDurationParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TimePeriod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TimePeriodData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TimePeriodParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ToCoreConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TransferSmoothSkinningWeightsOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TransformBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TransformOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TransformationMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TransformationMatrixData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TriangleAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TriangulateOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Triangulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Turbulence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypeIds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypeTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedDataInternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedObjectParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedParameterInternals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedPrimitiveOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedPrimitiveParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\UVDistortOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ValidatedStringParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VecAlgo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VectorDataFilterOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VectorOps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VectorTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VectorTypedData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VectorTypedParameter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VisibleRenderable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\WarpOp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\WorldBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Writer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\XYYToXYZColorTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\XYZToRGBColorTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\XYZToXYYColorTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\YUVImageWriter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\AlexaLogcToLinearDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BezierAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoundedKDTree.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoxAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoxInterpolator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\BoxOps.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CamelCase.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CineonToLinearDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CircularIterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ClassData.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ColorAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ColorSpaceTransformOp.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompositeAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundData.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundObject.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CompoundParameter.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ComputationCache.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CubeColorLookup.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\CubicBasis.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DataConvert.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DeepImageWriter.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DespatchTypedData.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DimensionTraits.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\DisplayDriver.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\EuclideanToSphericalTransform.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FastFloat.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\FrameList.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\GeometricTypedData.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\GeometricTypedDataInterpolator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\HenyeyGreenstein.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\IFFFile.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ImagePrimitive.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\IndexedIO.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\InternedString.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Interpolator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\InverseDistanceWeightedInterpolation.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\KDTree.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LRUCache.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LensModel.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LevenbergMarquardt.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LineSegment.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToAlexaLogcDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToCineonDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToPanalogDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToRec709DataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\LinearToSRGBDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Lookup.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Math.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixInterpolator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MatrixOps.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MeanSquaredError.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\MurmurHash.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Object.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\OversamplesCalculator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PanalogToLinearDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Parameter.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ParticleReader.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PerlinNoise.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PointDistribution.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PolygonAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PolygonIterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\PolygonVertexIterator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Primitive.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\QuatInterpolator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RGBToXYZColorTransform.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Random.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RandomRotationOp.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Reader.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Rec709ToLinearDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ReorderedFrameList.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\RunTimeTyped.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SRGBToLinearDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\ScaledDataConversion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SceneInterface.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SphericalToEuclideanTransform.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Spline.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\StringAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\SweepAndPrune.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TestTypedData.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TetrahedronAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TransformationMatrix.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TransformationMatrixInterpolator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TriangleAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Triangulator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Turbulence.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedData.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedDataInterpolator.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedObjectParameter.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\TypedParameter.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VecAlgo.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\VectorOps.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\Writer.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\XYYToXYZColorTransform.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\XYZToRGBColorTransform.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\XYZToXYYColorTransform.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\private\DisplayDriverServerHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\private\PrimitiveAlgoUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\private\ScopedTIFFErrorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\private\TransformStack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\private\cineon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="M:\gafferDependencies\cortex-9.21.1\include\IECore\private\dpx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="M:\gafferDependencies\cortex-9.21.1\src\IECore\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5E108FB9-6FC0-3B20-9F53-3C684AACFEFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{50FB8D4D-97EF-311D-B2F6-3B5A941B8736}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

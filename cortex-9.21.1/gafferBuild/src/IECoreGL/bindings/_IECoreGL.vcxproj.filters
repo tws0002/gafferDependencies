@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\AlphaTextureBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\BindableBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\BufferBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CachedConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CameraBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ColorTextureBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CurvesPrimitiveBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\DepthTextureBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\FontBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\FontLoaderBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\FrameBufferBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\GroupBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\HitRecordBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\IECoreGLBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\LuminanceTextureBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\MeshPrimitiveBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\NameStateComponentBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\OrthographicCameraBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\PerspectiveCameraBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\PointsPrimitiveBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\PrimitiveBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\RenderableBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\RendererBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\SceneBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\SelectorBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ShaderBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ShaderLoaderBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ShaderStateComponentBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\SplineToGLTextureConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\StateBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\StateComponentBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\TextureBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\TextureLoaderBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLCameraConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLCurvesConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLMeshConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLPointsConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLStateConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\ToGLTextureConverterBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\TypedStateComponentBinding.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="M:\gafferDependencies\cortex-9.21.1\src\IECoreGL\bindings\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5E108FB9-6FC0-3B20-9F53-3C684AACFEFE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

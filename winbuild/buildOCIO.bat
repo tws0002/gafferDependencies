@@ -22,4 +22,4 @@ copy %ROOT_DIR%\..\imageworks-OpenColorIO-Configs-f931d77\nuke-default\luts %BUI
 cd %ROOT_DIR%
 
 rem set build directory back to using backslash
-set "var=%var:/=\%"
+set "BUILD_DIR=%BUILD_DIR:/=\%"
