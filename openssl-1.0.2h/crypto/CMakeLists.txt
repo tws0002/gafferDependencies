@@ -155,8 +155,8 @@ add_submodule( evp encode.c digest.c evp_enc.c evp_key.c evp_acnf.c e_des.c e_bf
   m_dss1.c m_mdc2.c m_ripemd.c m_ecdsa.c p_open.c p_seal.c p_sign.c p_verify.c p_lib.c
   p_enc.c p_dec.c bio_md.c bio_b64.c bio_enc.c evp_err.c e_null.c c_all.c c_allc.c
   c_alld.c evp_lib.c bio_ok.c evp_pkey.c evp_pbe.c p5_crpt.c p5_crpt2.c e_old.c pmeth_lib.c
-  pmeth_fn.c pmeth_gn.c m_sigver.c evp_cnf.c e_rc4_hmac_md5.c e_aes_cbc_hmac_sha1.c e_aes_cbc_hmac_sha256.c
-  EXHEADERS evp.h )
+  pmeth_fn.c pmeth_gn.c m_sigver.c evp_cnf.c e_rc4_hmac_md5.c e_aes_cbc_hmac_sha1.c
+  e_aes_cbc_hmac_sha256.c EXHEADERS evp.h )
 add_submodule( hmac hmac.c hm_ameth.c hm_pmeth.c EXHEADERS hmac.h )
 add_submodule( idea i_cbc.c i_cfb64.c i_ofb64.c i_ecb.c i_skey.c EXHEADERS idea.h )
 # add_submodule(jpake jpake.c jpake_err.c EXHEADERS jpake.h)
@@ -213,8 +213,8 @@ add_submodule( x509 x509_def.c x509_d2.c x509_r2x.c x509_cmp.c x509_obj.c x509_r
 add_submodule( x509v3 v3_bcons.c v3_bitst.c v3_conf.c v3_extku.c v3_ia5.c v3_lib.c
   v3_prn.c v3_utl.c v3err.c v3_genn.c v3_alt.c v3_skey.c v3_akey.c v3_pku.c v3_int.c
   v3_enum.c v3_sxnet.c v3_cpols.c v3_crld.c v3_purp.c v3_info.c v3_ocsp.c v3_akeya.c
-  v3_pmaps.c v3_pcons.c v3_ncons.c v3_pcia.c v3_pci.c v3_scts.c pcy_cache.c pcy_node.c pcy_data.c
-  pcy_map.c pcy_tree.c pcy_lib.c v3_asid.c v3_addr.c EXHEADERS x509v3.h )
+  v3_pmaps.c v3_pcons.c v3_ncons.c v3_pcia.c v3_pci.c pcy_cache.c pcy_node.c pcy_data.c
+  pcy_map.c pcy_tree.c pcy_lib.c v3_asid.c v3_addr.c v3_scts.c EXHEADERS x509v3.h )
 # dirs not included: threads
 
 add_submodule( . EXHEADERS crypto.h opensslv.h opensslconf.h ebcdic.h symhacks.h
