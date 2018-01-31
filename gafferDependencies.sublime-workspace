@@ -1,0 +1,930 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"RenderElement",
+				"RenderElementMgr"
+			],
+			[
+				"Common",
+				"CommonRollout"
+			],
+			[
+				"repos",
+				"repository_list\tstatement"
+			],
+			[
+				"getXRefFile",
+				"xrefs.getXRefFile"
+			],
+			[
+				"python",
+				"pythonStartupScriptList"
+			],
+			[
+				"GetMat",
+				"getMaterialGBufID"
+			],
+			[
+				"RenderEle",
+				"RenderElementManager\tstatement"
+			],
+			[
+				"getLayer",
+				"getLayerFromName"
+			],
+			[
+				"spnBuck",
+				"spnBucketSubdivs"
+			],
+			[
+				"spnProgre",
+				"spnProgressiveThreshold"
+			],
+			[
+				"matteplus",
+				"matteplusWidget"
+			],
+			[
+				"GetPlugin",
+				"GetPluginInfoEntryWithDefault"
+			],
+			[
+				"render",
+				"renderarguments\tstatement"
+			],
+			[
+				"GetBool",
+				"GetBooleanPluginInfoEntryWithDefault"
+			],
+			[
+				"root",
+				"root_block\tstatement"
+			],
+			[
+				"rep",
+				"replace_attribute"
+			],
+			[
+				"scene",
+				"scene_filename\tstatement"
+			],
+			[
+				"create",
+				"create_skeleton\tfunction"
+			],
+			[
+				"getchild",
+				"get_child_blocks\tfunction"
+			],
+			[
+				"asser",
+				"assertEqual\tfunction"
+			],
+			[
+				"temp",
+				"temp_filename\tstatement"
+			],
+			[
+				"open",
+				"openBrackets\tstatement"
+			],
+			[
+				"nuke",
+				"nuke"
+			],
+			[
+				"d",
+				"deployment_server"
+			],
+			[
+				"idmap_config_hypoet",
+				"idmap_config_hypothetical_backend"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "winbuild/buildOCIO.bat",
+			"settings":
+			{
+				"buffer_size": 1231,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "winbuild/buildOSL.bat",
+			"settings":
+			{
+				"buffer_size": 1367,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "winbuild/buildAll.bat",
+			"settings":
+			{
+				"buffer_size": 6287,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "winbuild/buildOIIO.bat",
+			"settings":
+			{
+				"buffer_size": 1188,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 2055,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n<assembly xmlns=\"urn:schemas-microsoft-com:asm.v1\" manifestVersion=\"1.0\">\n  <assemblyIdentity version=\"1.0.0.0\"\n     processorArchitecture=\"X86\"\n     name=\"patch.exe\"\n     type=\"win32\"/>\n\n  <!-- Identify the application security requirements. -->\n  <trustInfo xmlns=\"urn:schemas-microsoft-com:asm.v3\">\n    <security>\n      <requestedPrivileges>\n        <requestedExecutionLevel\n          level=\"asInvoker\"\n          uiAccess=\"false\"/>\n        </requestedPrivileges>\n       </security>\n  </trustInfo>\n</assembly>\n",
+			"file": "winbuild/patch/bin/patch.exe.manifest",
+			"file_size": 568,
+			"file_write_time": 129164814170000000,
+			"settings":
+			{
+				"buffer_size": 568,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Anaconda Python Builder",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Anaconda Python Builder",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 203.0,
+		"last_filter": "diff",
+		"selected_items":
+		[
+			[
+				"diff",
+				"Diffy Compare"
+			],
+			[
+				"spcaes",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package resource",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"anaconda",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"anacond",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"ana",
+				"Anaconda: Disable linting on this file"
+			],
+			[
+				"pep8",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
+			[
+				"max",
+				"Sublime3dsMax: Send File to 3ds Max"
+			],
+			[
+				"instll",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda: ",
+				"Anaconda: McCabe complexity check"
+			],
+			[
+				"anacon",
+				"Anaconda: Set Python interpreter"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"upgrade",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 380.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/M/gafferDependencies",
+		"/M/gafferDependencies/winbuild",
+		"/M/gafferDependencies/winbuild/patch",
+		"/M/gafferDependencies/winbuild/patch/bin"
+	],
+	"file_history":
+	[
+		"/M/gafferDependencies/boost_1_61_0/tools/build/src/tools/msvc.jam",
+		"/M/gafferDependencies/boost_1_61_0/project-config.jam",
+		"/M/gafferDependencies/winbuild/buildBoost.bat",
+		"/M/maxscript/ingest_evermotion_collection.ms",
+		"/M/MAY002-november_2017_renderings/pipeline/submit_all_viewport_previews.py",
+		"/M/gafferDependencies/winbuild/buildOCIO.bat",
+		"/M/gafferDependencies/winbuild/buildAll.bat",
+		"/M/TSG007-winter_2018/pipeline/submit_all_viewport_previews.py",
+		"/M/maxscript/createVrayLightSelectElements.ms",
+		"/M/maxscript/export_vrmesh.ms",
+		"/M/maxscript/vrmesh_library_exporter.ms",
+		"/M/maxscript/export+.ms",
+		"/M/gafferDependencies/winbuild/buildZLIB.bat",
+		"/M/gafferDependencies/Python-2.7.13/python-cmake-buildsystem/.gitignore",
+		"/M/gafferDependencies/Python-2.7.13/python-cmake-buildsystem/cmake/lib/CMakeLists.txt",
+		"/M/gafferDependencies/winbuild/buildPython.bat",
+		"/C/Users/eric/Downloads/boost_binary/boost_1_61_0/lib64-msvc-14.0/boost_atomic-vc140-mt-1_61.dll",
+		"/M/gafferDependencies/boost_1_61_0/tools/build/src/engine/build.jam",
+		"/M/gafferDependencies/winbuild/buildOpenSSL.bat",
+		"/C/Users/eric/Downloads/python-cmake-buildsystem-master/cmake/lib/CMakeLists.txt",
+		"/M/maxscript/maxscript.sublime-project",
+		"/C/Users/eric/Downloads/gaffer-0.42.0.0-windows-msvc2017/bin/gaffer.bat",
+		"/C/Users/eric/Downloads/gaffer-0.42.0.0-windows-msvc2017/bin/gaffer_env.bat",
+		"/L/nuke/SplitMultiLightChannels.py",
+		"/L/nuke/DeadlineNukeClient.py",
+		"/L/nuke/cryptomatte_utilities.py",
+		"/L/nuke/init.py",
+		"/L/nuke/versionControl.py",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a68e6e44940b0204c2741b3/TSG007-001-shaker_white.nk",
+		"/M/pipeline/Hypothetical/Action/Vrscene.py",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a678bf34940b0b070246007/vrscene_export.ms",
+		"/M/maxscript/startup/hy_deadlinesubmit.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a678a294940b0b194563d77/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a67893a4940b0b8f84139e0/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a6789af4940b0c2bcadf780/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a67857e4940b01c34e1391f/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/plugins/3dsmax/3dsmax.py",
+		"//queue.hypothetical.world/deadline_repository/plugins/3dsmax/3dsmax.py.old",
+		"/M/Scripts - Deadline/scripts/Jobs/FetchJobOutput.py",
+		"/M/XOO001-LA_looks/pipeline/submit_all_viewport_previews.py",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a500eed4940b089d48d3d0f/vrscene_export.ms",
+		"//taskcache.hypothetical.world/task_cache/XOO001-LA_looks_2018_01_10_11_45_56_0311/animated_light_test.vrscene",
+		"/C/Users/eric/Desktop/animated light test.vrscene",
+		"/C/Users/eric/Desktop/test.ms",
+		"/C/Users/eric/Downloads/gaffer-0.34.0.0-windows/bin/gaffer.bat",
+		"/C/Users/eric/Desktop/test.py",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a50064a4940b07828e00ce9/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a500b0e4940b0a2e4035eea/vrscene_export.ms",
+		"/M/gafferDependencies/winbuild/buildCortex.bat",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a440c434940b086c8fc01b5/vrscene_export.ms",
+		"/M/gaffer/bin/gaffer.bat",
+		"/C/Users/eric/Downloads/gaffer-0.34.0.0-windows/bin/gaffer.py",
+		"/C/Users/eric/Downloads/collectFiles_1.2/collectFiles.py",
+		"/M/MAY002-november_2017_renderings/pipeline/renamewritenodes.py",
+		"/C/Users/eric/Downloads/vraystd_adv_36004_linux_x64_gcc-4.4_hwlic_utf8/vraystd_changelog.txt",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a3848ef4940b05c589d499a/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a39361d4940b097a890b79f/vrscene_export.ms",
+		"/M/maxscript/setup_material_ids.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a3833414940b0629c576bbd/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a380c1c4940b01d3c062fd0/vrscene_export.ms",
+		"/C/Users/eric/Downloads/Nuke11.1v1-linux-x86-release-64.tgz",
+		"/M/maxscript/set_all_material_ids.ms",
+		"/M/pipeline/Hypothetical/Deadline/MaxPlugin.py",
+		"/M/maxscript/vray_conform_materials.ms",
+		"/C/Users/eric/AppData/Roaming/Sublime Text 3/Packages/Send to 3ds Max/sublime3dsmax.py",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a3143e94940b0f8a0169d85/vrscene_export.ms",
+		"/C/Users/eric/Downloads/dcmodels_2017_12_07_dOy/DC_GammaTool_v1.00.ms",
+		"/M/pipeline/Hypothetical/Deadline/DeadlineSubmission.py",
+		"/M/maxscript/maxplus python info.txt",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a30170c4940b0c6cc0a2e95/vrscene_export.ms",
+		"//queue.hypothetical.world/deadline_repository/jobs/5a2eee794940b05628a3f502/vrscene_export.ms",
+		"/P/Hypothetical/Action/Vrscene.py",
+		"/M/maxscript/toggle_vrproxy_view.ms",
+		"/M/maxscript/hypotheticalStartup.ms",
+		"/C/Users/eric/Desktop/crypto_test.vrscene",
+		"/C/Users/eric/Downloads/pbjgN0.json",
+		"/Q/TOT003-contemporary_bath_2017_11_27_12_11_51_0614/crytpo_test.vrscene",
+		"/C/Program Files/Chaos Group/V-Ray/Standalone for x64/samples/vray_plugins/rchannels/cryptomatte/cryptomatte.cpp",
+		"/C/Users/eric/Desktop/nuke_test.vrscene",
+		"/C/Users/eric/Desktop/crypto_test2.vrscene",
+		"/C/Users/eric/Downloads/appsdk-win-full-stable-1.22.00-vray36002-20170720/examples/py/advanced/01-render-elements.py",
+		"/C/Users/eric/Downloads/appsdk-win-full-stable-1.22.00-vray36002-20170720/examples/py/modification/09-output-parameters.py",
+		"/C/Users/eric/Downloads/appsdk-win-full-stable-1.22.00-vray36002-20170720/examples/py/modification/06-change-settings.py",
+		"/C/Users/eric/Desktop/crytpo_test2.vrscene",
+		"/C/Program Files/Chaos Group/V-Ray/Standalone for x64/scenes/aniso_test.vrscene",
+		"/C/Program Files/Chaos Group/V-Ray/Standalone for x64/scenes/renderchannels.vrscene",
+		"/C/Users/eric/Desktop/crytpo_test.vrscene",
+		"/L/materials/shaders/gold.osl",
+		"/L/materials/shaders/Complex_Fresnel_IOR.osl",
+		"/M/HYP054-2017_Summer_Reel/pipeline/export_all_vrscenes.ms",
+		"/C/Users/eric/Downloads/complex_ior/complex_ior.osl",
+		"/Q/TOT003-contemporary_bath_2017_11_27_12_10_08_0874/crytpo_test.vrscene",
+		"/C/Users/eric/Desktop/.vrscene",
+		"/M/TOT002-bath_vr_code/vtour/tour.xml",
+		"/C/Users/eric/Downloads/password_protect.php",
+		"/C/Users/eric/Downloads/index.php",
+		"/M/TOT002-bath_vr_code/vtour/index.php",
+		"/M/TOT002-bath_vr_code/vtour/tour.html",
+		"/C/Users/eric/Downloads/subway_by_frch.html",
+		"/M/maxscript/matte+.py",
+		"//queue.hypothetical.world/deadline_repository_old/settings/connection.ini",
+		"/L/nuke/menu.py",
+		"//queue.hypothetical.world/deadline_repository_old/settings/repository.ini",
+		"//queue.hypothetical.world/deadline_repository/settings/repository.ini",
+		"/M/HYP054-2017_Summer_Reel/pipeline/submit_current_viewport_preview.py",
+		"/M/puppet/modules/hypothetical/templates/telegraf-base.conf.erb",
+		"/C/ProgramData/Thinkbox/Deadline10/deadline.ini",
+		"/C/ProgramData/PuppetLabs/puppet/etc/puppet.conf",
+		"/C/Users/eric/AppData/Local/Thinkbox/Deadline10/deadline.ini",
+		"/C/Users/eric/Desktop/find_orphans.py",
+		"/M/Scripts - Deadline/plugins/VraySpawner/VraySpawner.py",
+		"/M/Scripts - Deadline/plugins/Vray/Vray.py",
+		"//queue.hypothetical.world/deadline_repository/uninstall.dat",
+		"/M/HYP054-2017_Summer_Reel/pipeline/submit_all_viewport_previews.py",
+		"/M/server_tools/fetch_from_plastic.py",
+		"/C/Users/eric/gaffer/projects/default/scripts/test.gfr",
+		"/C/Users/eric/plasticpipeprotocol.conf",
+		"/M/gaffer_public/merges.txt",
+		"/M/gaffer_public/csets.txt",
+		"/C/Users/eric/merges.txt",
+		"//queue.hypothetical.world/deadline_repository/submission/Nuke/Main/SubmitNukeToDeadline.py",
+		"/C/Users/eric/AppData/Local/plastic4/plastic.workspaces",
+		"/M/OLY001-Glen_House/.plastic/preview/version",
+		"/C/Users/eric/Desktop/temp.py",
+		"/L/textures/HDRI/time_lapse_Afternoon2Night01/0001.ifl",
+		"/C/Users/eric/Downloads/appsdk-win-full-stable-1.22.00-vray36002-20170720/examples/py/settings/02-progressive-sampler.py",
+		"//queue.hypothetical.world/deadline_repository/plugins/Houdini/Houdini.py",
+		"//queue.hypothetical.world/deadline_repository/plugins/Houdini/hrender_dl.py"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\Program Files\\Chaos Group\\V-Ray\\Standalone for x64\\scenes",
+			"M:\\maxscript",
+			"<open folders>",
+			"/Users/eric/Sites",
+			"/Users/eric/Documents/puppet",
+			"/Users/eric/Documents/puppet/environments",
+			"/Users/eric/Documents/puppet/environments/production/modules",
+			"/Users/eric/Documents/puppet/environments/production/modules/samba",
+			"/Users/eric/Documents/puppet/environments/production/modules/samba/manifests/server",
+			"/Users/eric/Documents/puppet/environments/production/modules/samba",
+			"/Users/eric/Documents/puppet",
+			"/Users/eric/Documents/puppet/environments"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			" addUserKnob {22",
+			"masterNodeList",
+			"whitelist",
+			"Look",
+			"site",
+			"LayerManager",
+			"MaxPlus.SuperClassIds",
+			"MaxPlus.SuperClassIds.",
+			"LayerManager",
+			"Layer",
+			"active",
+			"FileManager",
+			"crypto",
+			"VRayDenoiser",
+			"default",
+			"ddlImgType",
+			"commonStickies",
+			"viewport",
+			"getcamera",
+			"print",
+			"}\n",
+			"style",
+			"polyop",
+			"local",
+			"getRenderSEttings",
+			"renderpreset",
+			"preset",
+			"exportScene",
+			"output",
+			"camToExport",
+			"commonStickies",
+			"ddlCamera.selected",
+			"ddlCamera.selection",
+			"jobSettings.frameList",
+			"load",
+			")",
+			"6",
+			"vrayexport",
+			"vrscene",
+			"starting frame",
+			"getMaterialListRecursive",
+			"hyExportFuncs.getMaterialListRecursive",
+			"tree",
+			"root",
+			"vrayMeshExport",
+			"getMAXFileAssetMetadata",
+			"exportVRayElements",
+			"toon",
+			"printVRayToon",
+			"re.",
+			"setMaterialID",
+			"\",\"",
+			"\\}",
+			"\\{",
+			".y",
+			".x",
+			"value",
+			"import MaxPlus\nanimation_range = MaxPlus.Animation.GetAnimRange()\n\ncam = MaxPlus.Core.GetRootNode().GetINodeByName(\"cam_animated\")\n\nactive_view = MaxPlus.ViewportManager.GetActiveViewport()\nactive_view.SetViewCamera(cam)\nMaxPlus.Core.EvalMAXScript(\"v=NitrousGraphicsManager.GetActiveViewportSetting()\")\nMaxPlus.Core.EvalMAXScript(\"v.VisualStyleMode = #Clay\")\n\nviewW = MaxPlus.Core.EvalMAXScript(\"getViewSize()\")\nprint(viewW.Value)",
+			"resize",
+			"CreatePreview",
+			"createPreview",
+			"GetAnimRange",
+			"byname",
+			"clay",
+			"submtls",
+			"scanMaterialGBuf",
+			"ParameterBlock",
+			"selectedNodes",
+			"customattribute",
+			"custom",
+			"mxs_eval",
+			"getMaterialGBufID",
+			"|",
+			"release",
+			"?",
+			"copyright",
+			"$",
+			"%",
+			"V_Ray",
+			"V_Ray_",
+			"excludePathList",
+			"group",
+			"(@\\\"",
+			"MAXScriptFile",
+			"\\n",
+			"|",
+			"is_python",
+			"float",
+			"split",
+			"onclick",
+			"git",
+			"7z",
+			"iconpillnight",
+			"pillnight",
+			"cente_418",
+			"dt_large_menu.mp4",
+			"vr_day_cam_op1_cente_830",
+			"vr_day_cam_op2_cente_831",
+			"cente_418",
+			"cente_417",
+			"dt_large_menu",
+			"Project",
+			"cardboard_demo_0",
+			"cardboard_demo_1",
+			"cardboard_demo_0",
+			"<image",
+			"exportScene",
+			"getRenderer",
+			"create_skeleton",
+			"skeleton",
+			"self.parent",
+			"instance_6",
+			"primary_visibility",
+			"primary_visi",
+			"primary",
+			"shadows_visibility",
+			"shadow",
+			"\\bvisible=1;",
+			"_modified",
+			";\")",
+			"\\n",
+			"outFile.write",
+			"\\t",
+			"_modified",
+			"print",
+			"copy",
+			"Plane002@node_186_stats",
+			"material="
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".ms\",\"",
+			"}}",
+			"{{",
+			".GetY()",
+			".GetX()",
+			"networkPathList",
+			"dt_large_menu_cropped.mp4",
+			"vr_night_cam_op1_cente_830",
+			"vr_night_cam_op2_cente_831",
+			"cente_831",
+			"cente_830",
+			"dt_large_menu_cropped",
+			"hyExportFuncs.getRenderer",
+			"visible=0;",
+			";\\n\")",
+			"",
+			"wrapper.append_child",
+			"",
+			"in_file",
+			"material_list",
+			"write",
+			"\"",
+			"Deadline${majorversion}",
+			". ",
+			"#330066",
+			"cacheFolder",
+			"destDir",
+			"<%= scope.lookupvar('hypothetical::ue4::basepath') -%>",
+			"${basepath}",
+			"hypothetical::ue4::version",
+			"deployment_server",
+			"\\\\\\\\deployment.hypothetical.world\\\\deployment server",
+			"//deployment.hypothetical.world/deployment server/",
+			"//deployment.hypothetical.world"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "winbuild/buildOCIO.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								246,
+								246
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "winbuild/buildOSL.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								176,
+								333
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								341.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 341.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "winbuild/buildAll.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6287,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5314,
+								5314
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								972.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "winbuild/buildOIIO.bat",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1188,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Batch File/Batch File.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2026,
+								2051
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "winbuild/patch/bin/patch.exe.manifest",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 568,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								568,
+								568
+							]
+						],
+						"settings":
+						{
+							"origPos":
+							[
+								0.0,
+								0.0
+							],
+							"syncScroll": false,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 315.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "gafferDependencies.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"M:\\maxscript\\maxscript.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 243.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
