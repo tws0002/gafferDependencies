@@ -68,7 +68,7 @@ class APPLESEED_DLLSYMBOL IRendererController
     // This method is called continuously during rendering.
     virtual void on_progress() = 0;
 
-    enum Status
+    enum APPLESEED_DLLSYMBOL Status
     {
         // Continue/resume rendering.
         ContinueRendering,
