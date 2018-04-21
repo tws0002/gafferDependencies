@@ -4,19 +4,19 @@ Date: Sun, 17 Sep 2017 15:11:22 -0700
 Subject: [PATCH] TBB CMake build scripts from https://github.com/wjakob/tbb
 
 ---
- tbb-4.4.6/CMakeLists.txt                    | 524 ++++++++++++++++++++++++++++
- tbb-4.4.6/build/mingw_cross_toolchain.cmake |   9 +
- tbb-4.4.6/build/version_string.ver.in       |  11 +
+ tbb-2017_U6/CMakeLists.txt                    | 524 ++++++++++++++++++++++++++++
+ tbb-2017_U6/build/mingw_cross_toolchain.cmake |   9 +
+ tbb-2017_U6/build/version_string.ver.in       |  11 +
  3 files changed, 550 insertions(+), 11 deletions(-)
- create mode 100644 tbb-4.4.6/CMakeLists.txt
- create mode 100644 tbb-4.4.6/build/mingw_cross_toolchain.cmake
- create mode 100644 tbb-4.4.6/build/version_string.ver.in
+ create mode 100644 tbb-2017_U6/CMakeLists.txt
+ create mode 100644 tbb-2017_U6/build/mingw_cross_toolchain.cmake
+ create mode 100644 tbb-2017_U6/build/version_string.ver.in
 
-diff --git a/tbb-4.4.6/CMakeLists.txt b/tbb-4.4.6/CMakeLists.txt
+diff --git a/tbb-2017_U6/CMakeLists.txt b/tbb-2017_U6/CMakeLists.txt
 new file mode 100644
 index 0000000000..e020273fc6
 --- /dev/null
-+++ b/tbb-4.4.6/CMakeLists.txt
++++ b/tbb-2017_U6/CMakeLists.txt
 @@ -0,0 +1,524 @@
 +cmake_minimum_required (VERSION 2.8.12 FATAL_ERROR)
 +project (tbb CXX)
@@ -543,11 +543,11 @@ index 0000000000..e020273fc6
 +  tbb_add_test (yield)
 +endif ()
 \ No newline at end of file
-diff --git a/tbb-4.4.6/build/mingw_cross_toolchain.cmake b/tbb-4.4.6/build/mingw_cross_toolchain.cmake
+diff --git a/tbb-2017_U6/build/mingw_cross_toolchain.cmake b/tbb-2017_U6/build/mingw_cross_toolchain.cmake
 new file mode 100644
 index 0000000000..f0671b513c
 --- /dev/null
-+++ b/tbb-4.4.6/build/mingw_cross_toolchain.cmake
++++ b/tbb-2017_U6/build/mingw_cross_toolchain.cmake
 @@ -0,0 +1,9 @@
 +# CMake toolchain file, cf. README.mingw_cross
 +SET(CMAKE_SYSTEM_NAME Windows)
@@ -558,11 +558,11 @@ index 0000000000..f0671b513c
 +# Prefix detection only works with compiler id "GNU"
 +CMAKE_FORCE_C_COMPILER(${GNU_HOST}-gcc GNU)
 +SET(CMAKE_RC_COMPILER ${GNU_HOST}-windres)
-diff --git a/tbb-4.4.6/build/version_string.ver.in b/tbb-4.4.6/build/version_string.ver.in
+diff --git a/tbb-2017_U6/build/version_string.ver.in b/tbb-2017_U6/build/version_string.ver.in
 new file mode 100644
 index 0000000000..bb9f96e8f2
 --- /dev/null
-+++ b/tbb-4.4.6/build/version_string.ver.in
++++ b/tbb-2017_U6/build/version_string.ver.in
 @@ -0,0 +1,11 @@
 +#define __TBB_VERSION_STRINGS(N) \
 +#N": BUILD_HOST         @CMAKE_SYSTEM_NAME@" ENDL \

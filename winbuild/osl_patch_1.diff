@@ -7,13 +7,13 @@ Subject: [PATCH] LLVM 3.4 wants to use .a for static libs when it should be
 ---
  .../src/cmake/modules/FindLLVM.cmake               | 132 +++++++++++++++++++++
  1 file changed, 132 insertions(+)
- create mode 100644 OpenShadingLanguage-Release-1.8.9/src/cmake/modules/FindLLVM.cmake
+ create mode 100644 OpenShadingLanguage-Release-1.8.12/src/cmake/modules/FindLLVM.cmake
 
-diff --git a/OpenShadingLanguage-Release-1.8.9/src/cmake/modules/FindLLVM.cmake b/OpenShadingLanguage-Release-1.8.9/src/cmake/modules/FindLLVM.cmake
+diff --git a/OpenShadingLanguage-Release-1.8.12/src/cmake/modules/FindLLVM.cmake b/OpenShadingLanguage-Release-1.8.12/src/cmake/modules/FindLLVM.cmake
 new file mode 100644
 index 0000000000..c61322b97d
 --- /dev/null
-+++ b/OpenShadingLanguage-Release-1.8.9/src/cmake/modules/FindLLVM.cmake
++++ b/OpenShadingLanguage-Release-1.8.12/src/cmake/modules/FindLLVM.cmake
 @@ -0,0 +1,132 @@
 +# Module to find LLVM
 +#

@@ -4,15 +4,15 @@ Date: Sun, 17 Sep 2017 18:58:41 -0700
 Subject: [PATCH] Small MSVC 2015 fix for HDF5
 
 ---
- hdf5-1.8.11/src/H5Omtime.c | 556 +++++++++++++++++++++++++++++++++++++++++++++
+ hdf5-1.8.20/src/H5Omtime.c | 556 +++++++++++++++++++++++++++++++++++++++++++++
  1 file changed, 556 insertions(+)
- create mode 100644 hdf5-1.8.11/src/H5Omtime.c
+ create mode 100644 hdf5-1.8.20/src/H5Omtime.c
 
-diff --git a/hdf5-1.8.11/src/H5Omtime.c b/hdf5-1.8.11/src/H5Omtime.c
+diff --git a/hdf5-1.8.20/src/H5Omtime.c b/hdf5-1.8.20/src/H5Omtime.c
 new file mode 100644
 index 0000000000..71fca5f222
 --- /dev/null
-+++ b/hdf5-1.8.11/src/H5Omtime.c
++++ b/hdf5-1.8.20/src/H5Omtime.c
 @@ -0,0 +1,556 @@
 +/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 + * Copyright by The HDF Group.                                               *
