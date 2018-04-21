@@ -15,7 +15,7 @@ if %ERRORLEVEL% NEQ 0 (exit /b %ERRORLEVEL%)
 
 REM apply the patch from the root directory so it can find the files properly
 cd %ROOT_DIR%
-%ROOT_DIR%\winbuild\patch\bin\patch < %ROOT_DIR%\winbuild\tbb_patch_1.diff
+%ROOT_DIR%\winbuild\patch\bin\patch -f < %ROOT_DIR%\winbuild\tbb_patch_1.diff
 
 cd %WORKING_DIR%
 
