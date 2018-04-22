@@ -6,13 +6,13 @@ Subject: [PATCH] Flex/Bison windows fix
 ---
  .../src/cmake/flexbison.cmake                      | 94 ++++++++++++++++++++++
  1 file changed, 94 insertions(+)
- create mode 100644 OpenShadingLanguage-Release-1.8.9/src/cmake/flexbison.cmake
+ create mode 100644 OpenShadingLanguage-Release-1.8.12/src/cmake/flexbison.cmake
 
-diff --git a/OpenShadingLanguage-Release-1.8.9/src/cmake/flexbison.cmake b/OpenShadingLanguage-Release-1.8.9/src/cmake/flexbison.cmake
+diff --git a/OpenShadingLanguage-Release-1.8.12/src/cmake/flexbison.cmake b/OpenShadingLanguage-Release-1.8.12/src/cmake/flexbison.cmake
 new file mode 100644
 index 0000000000..de8b5c9d2c
 --- /dev/null
-+++ b/OpenShadingLanguage-Release-1.8.9/src/cmake/flexbison.cmake
++++ b/OpenShadingLanguage-Release-1.8.12/src/cmake/flexbison.cmake
 @@ -0,0 +1,94 @@
 +# LG's macros for using flex and bison.
 +# Merely including this file will set FLEX_EXECUTABLE and BISON_EXECUTABLE
