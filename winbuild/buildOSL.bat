@@ -14,6 +14,11 @@ if %ERRORLEVEL% NEQ 0 (exit /b %ERRORLEVEL%)
 if %ERRORLEVEL% NEQ 0 (exit /b %ERRORLEVEL%)
 
 cd %ROOT_DIR%
+rem These two files are created by the following patches
+rem Conflicts between Unix and Windows line endings make it
+rem easier to just delete them and create them by patch
+del %WORKING_DIR%\src\cmake\flexbison.cmake
+del %WORKING_DIR%\src\cmake\modules\FindLLVM.cmake
 %ROOT_DIR%\winbuild\patch\bin\patch -f -p1 < %ROOT_DIR%\winbuild\osl_patch_1.diff
 %ROOT_DIR%\winbuild\patch\bin\patch -f -p1 < %ROOT_DIR%\winbuild\osl_patch_2.diff
 
